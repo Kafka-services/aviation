@@ -1,5 +1,7 @@
 # aviation
 
+![alt text](https://github.com/Kafka-services/aviation/blob/main/Aviation.jpg)
+
 ### Topic creation
 	kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic itinerary-C19
 	kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic itinerary-C19-COUNTRY_AUS
@@ -35,4 +37,4 @@ http://localhost:8070/itinerary/postItineraryUs
 		}
 
 
-![alt text](https://github.com/Kafka-services/aviation/blob/main/Aviation.jpg)
+
